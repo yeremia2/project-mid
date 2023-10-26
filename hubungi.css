@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(15, 15, 20);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Monster", sans-serif;
+    font-size: 16px;
+    height: 100vh;
+    margin: 0;
+    padding: 10px;
+}
+
+.container {
+    background-color: rgb(209, 70, 70);
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    position: relative;
+    overflow: hidden;
+    width: 7800px;
+    max-width: 100%;
+    min-height: 522px;
+    min-width: 370px;
+}
+
+.card-container {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    height: 530px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.left-container {
+    width: 80%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.left p {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 1rem;
+    margin-bottom: 5rem;
+}
+
+.right {
+    display: flex;
+    flex: 1;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+}
+
+.right-container {
+    width: 60%;
+    height: 40%;
+    text-align: center;
+}
+
+input, textarea {
+    background-color: wheat;
+    border: none;
+    padding: 10px;
+    margin: 1px 0;
+    width: 100%;
+    font-size: 16px;
+}
+
+input:focus, textarea:focus {
+    outline: 1px solid rgb(184, 184, 195);
+}
+
+button {
+    border-radius: 200px;
+    border: 1px solid transparent;
+    background-color: rgb(176, 176, 191);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-out;
+    padding: 10px 20px;
+}
+
+button:hover {
+    opacity: 0.7;
+}
